@@ -64,8 +64,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Special thanks to the service desk team for their feedback and testing.
-- [Any other acknowledgments or credits]
 
 ---
-
-For detailed instructions and additional resources, please refer to each project's individual documentation.
