@@ -32,6 +32,15 @@ Each project in this folder addresses specific challenges faced by the service d
      - Provides feedback on the installation progress and cleans up the session afterward.
    - **Usage:** The script requires the PC name as a parameter. It establishes a remote session, transfers the installer, and starts the installation process.
 
+4. **Project 4: Installing and Reinstalling Software on Remote Hosts**
+   - **Description:** This script handles the installation and reinstallation of a software application on a remote host. It provides options to install the software from scratch or to reinstall it in cases where the current version is outdated or malfunctioning. 
+   - **Key Features:**
+     - Installs the software on a remote machine if it is not already present.
+     - Reinstalls the software by removing an outdated version and installing a new one.
+     - Offers a menu interface for selecting the desired action (install, reinstall old version to new, or reinstall the current version).
+   - **Usage:** The script requires the PC name and administrative credentials. The user selects the appropriate action from the menu, and the script performs the necessary steps to install or reinstall the software.
+   - **Security Note:** The script has been sanitized for security reasons, with placeholders (`<software_installer.msi>`, `<Network Path to Installer>`, etc.) replacing sensitive information. Users must manually replace these placeholders with the actual software details for the script to function correctly.
+
 ## Getting Started
 
 To use these scripts:
