@@ -41,6 +41,16 @@ Each project in this folder addresses specific challenges faced by the service d
    - **Usage:** The script requires the PC name and administrative credentials. The user selects the appropriate action from the menu, and the script performs the necessary steps to install or reinstall the software.
    - **Security Note:** The script has been sanitized for security reasons, with placeholders (`<software_installer.msi>`, `<Network Path to Installer>`, etc.) replacing sensitive information. Users must manually replace these placeholders with the actual software details for the script to function correctly.
 
+5. **Project 5: File Sender to Remote Hosts**
+   - **Description:** This script is designed to send a specific file or folder (such as the Eclipse installer) to multiple remote hosts. It facilitates software deployment across multiple machines by automating the process of copying files to specified destinations.
+   - **Key Features:**
+     - Reads hostnames inputted by the user.
+     - Creates a directory on each remote host to store the file.
+     - Copies the specified file or folder to each remote host's directory.
+   - **Usage:** The user inputs the hostnames of the remote machines to which the file should be sent. The script then creates the necessary directories on those hosts and copies the file from a local path (`C:\temp\Eclipse`) to a destination path on the remote hosts (`C:\Eclipse`).
+   - **Security Note:** Ensure that appropriate permissions and credentials are used to establish remote sessions and transfer files securely. The script assumes access to administrative shares (like `C$`), so it should be run with adequate privileges.
+
+
 ## Getting Started
 
 To use these scripts:
