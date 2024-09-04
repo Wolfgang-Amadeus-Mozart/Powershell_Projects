@@ -50,6 +50,16 @@ Each project in this folder addresses specific challenges faced by the service d
    - **Usage:** The user inputs the hostnames of the remote machines to which the file should be sent. The script then creates the necessary directories on those hosts and copies the file from a local path (`C:\temp\Eclipse`) to a destination path on the remote hosts (`C:\Eclipse`).
    - **Security Note:** Ensure that appropriate permissions and credentials are used to establish remote sessions and transfer files securely. The script assumes access to administrative shares (like `C$`), so it should be run with adequate privileges.
 
+6. **Project 6: Group Membership Finder in Active Directory**
+   - **Description:** This script helps service desk agents identify the Active Directory group memberships of specific users. It retrieves the "Global Group memberships" for a given user ID and offers a search functionality to filter results based on partial group name matches.
+   - **Key Features:**
+     - Prompts the user for a specific User ID to query.
+     - Uses the `net user <UserID> /domain` command to fetch the user's global group memberships.
+     - Allows for filtering of group memberships based on user input.
+     - Provides a clear and user-friendly console-based interface.
+   - **Usage:** The user runs the script and inputs a target User ID. The script displays all "Global Group memberships" for that user and prompts for a keyword to filter the results. The filtered list of groups is then displayed, or a message indicates if no matches were found.
+   - **Security Note:** This script has been sanitized for security reasons. Any sensitive information, such as user names or group names, should be replaced with appropriate placeholders before use in a public or shared environment.
+
 
 ## Getting Started
 
