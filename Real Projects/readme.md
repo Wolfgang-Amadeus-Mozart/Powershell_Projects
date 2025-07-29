@@ -60,6 +60,18 @@ Each project in this folder addresses specific challenges faced by the service d
    - **Usage:** The user runs the script and inputs a target User ID. The script displays all "Global Group memberships" for that user and prompts for a keyword to filter the results. The filtered list of groups is then displayed, or a message indicates if no matches were found.
    - **Security Note:** This script has been sanitized for security reasons. Any sensitive information, such as user names or group names, should be replaced with appropriate placeholders before use in a public or shared environment.
 
+7. **Project 7: Port Connectivity Tester**
+   - **Description:** This script allows users to test TCP connectivity to a specific address and port, helping troubleshoot network or firewall issues. It’s useful for IT professionals verifying if a service is reachable over a given port.
+   - **Key Features:**
+     - Prompts the user to input a target port and address.
+     - Uses the `Test-NetConnection` cmdlet to verify if the specified port is open and reachable.
+     - Displays the results of the test directly in the console.
+     - Provides clear success or failure messages based on the outcome of the test.
+   - **Usage:** The user runs the script and is prompted to enter a port number and an address (e.g., `services.repcenter.skf.com`). The script then attempts a TCP connection to the specified target and displays the connection status.
+   - **Security Note:** This script does not log or transmit any sensitive data. When using in production environments, ensure the address and port being tested do not expose any internal services unintentionally.
+
+
+
 
 ## Getting Started
 
