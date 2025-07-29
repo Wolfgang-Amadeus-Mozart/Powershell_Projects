@@ -1,14 +1,14 @@
 # Welcome to my PowerShell Repo
 
-Here  I'll be posting my powershell codes. 
+Here  I'll be posting my powershell scripts. 
 
 ## Real PowerShell Projects
 
-In this folder, you will find powershell projecdts I developed that wen't in production, for more information access the folder
+In this folder, you will find powershell scripts I developed for resolving/automating processes and repetitive tasks, for more information access each folder.
 
-## ProwerShell Studying
+## PowerShell Studying
 
-In this folder you will findo some powershell code i'm using for Studying, testing and training purposes, it will not containg any real-world projects.	
+You will find powershell scripts that i'm using for Studying, testing and training purposes, it will not containg any real-world projects.	
 
 ## Prerequisites
 
@@ -26,6 +26,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Special thanks to the service desk team for their feedback and testing.
+- Special thanks for all my managers that aencouraged me to implement powershell solutions.
 
 ---
